@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar{
+  padding: 10px;
+}
+.jstree-default .jstree-node{
+  margin: 5px auto;
+  margin-left: 24px;
+}
+/* .jstree-icon.jstree-themeicon{
+  margin-left: 20px;
+} */
+.jstree-icon.jstree-ocl{
+  margin-left: 25px;
+  position: absolute;
+}
+.jstree .jstree-open>.jstree-children{
+  margin-left: -24px;
+}
+.jstree-node .edit-settings-icon {
+  margin-left: 20px;
+}
+.jstree-node .jstree-node .edit-settings-icon{
+  margin-left: 40px;
+}
+.jstree-node .jstree-node .jstree-node .edit-settings-icon{
+  margin-left: 60px;
+}
+.jstree-default .jstree-checkbox, .jstree-default .jstree-checkbox:hover{
+  background-image: url('./check-box-empty.png');
+  background-position: center center !important;
+  background-size: 20px;
+}
+.jstree-default.jstree-checkbox-selection .jstree-clicked>.jstree-checkbox, .jstree-default .jstree-checked>.jstree-checkbox{
+  background-image: url('./check-sign-in-a-rounded-black-square.png');
+  background-position: center center !important;
+  background-size: 20px;
+}
+.jstree-closed .jstree-themeicon{
+  background-image: url('./folder_closed.png');
+  background-position: center center;
+  background-size: 20px;
+}
+.jstree-open .jstree-themeicon{
+  background-image: url('./folder_open.png');
+  background-position: center center;
+  background-size: 20px;
+}
+.edit-settings-icon{
+  background-image: url(./edit.png);
+  background-size: 14px;
+  background-position: center center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+.add-settings-icon{
+  background-image: url(./edit.png);
+  background-size: 14px;
+  background-position: center center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+}
+.empty-icon{
+  background-image: none;
+}
